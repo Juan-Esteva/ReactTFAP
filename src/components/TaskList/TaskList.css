@@ -1,0 +1,30 @@
+/* En TaskList.css */
+.task-list {
+  padding: 0;
+  list-style: none;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #007bff;
+  margin-bottom: 8px;
+  width: auto;
+}
+
+.task-item button:hover {
+  background-color: #0056b3;
+}
+
+.task-item.completed span {
+  text-decoration: line-through red; /* Aplicar tachado solo al texto para tareas completadas */
+}
+.task-item span {
+  flex-grow: 1;
+  margin-right: 8px;
+}
+
+.task-item button {
+  margin-left: 8px;
+}
